@@ -1,0 +1,14 @@
+ /* tag selector */
+ h1 {
+    color: whitesmoke;
+    background-color: black;
+}
+/* id selector */
+#heading1 {
+    color: red;
+}
+/* class selector */
+.group1 {
+    color: pink;
+    background-color: black;
+}

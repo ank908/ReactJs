@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basic_props{
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* background-position: 0%; */
+    background: url('../images/wesleytingey.jpg') center/100% fixed;
+    /* height: 1000px; */
+
+    color: white;
+}
+.main_heading{
+    color: rgb(84, 84, 225);
+    /* background-color: rgb(231, 143, 125); */
+    background: linear-gradient(to Left, rgb(230, 157, 142), rgb(137, 137, 230));
+    /* background: radial-gradient(circle, rgb(230, 157, 142), rgb(137, 137, 230)); */
+    /* background: url('../images/wesleytingey.jpg'); */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-decoration: underline;
+    text-emphasis: 30px;
+}
+
+.box{
+    background-color: rgba(220, 14, 14, 0.3);
+   height: 400px;
+   width: 400px;
+border: 5px solid white;
+/* top right bottom left */
+margin: 20px 180px;
+padding: 20px 20px;
+border-radius: 10px;
+/* 20px is blur effect */
+box-shadow: 5px 5px 20px rgb(89, 215, 226, 05), 0 0 20px rgba(75, 214, 15, 0.946) inset;
+/* box-shadow: 0 0 20px rgb(89, 215, 226) inset; */
+   
+}
+
+/* Flexbox Page */
+.parent{
+    display: flex; 
+    /* main axis(x-axis)  cross-axis(y-axis)*/
+    /* flex-direction: row; */
+
+    /* main axis(y-axis)  cross-axis(x-axis)*/
+    /* flex-direction: column; */
+
+    
+    /* flex-direction: row-reverse; */
+    /* wrap to wrapped when resized window else no-wrap */
+    flex-wrap: wrap;
+
+    /* center horizontally main axis(x-axis)*/
+    justify-content: center;
+    /* space between */
+
+
+
+    /* center vertically cross-axis(y-axis)*/
+    height: 300px;
+    /* align-items: center; */
+
+    align-items: baseline;
+
+    background-color: blanchedalmond;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 3px;
+}
+
+.parent-alert{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: aquamarine;
+    color: white;
+    margin: 50px;
+}
+
+.alert{
+    /* width: 200px; */
+    /* height: 200px; */
+
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+.parent1{
+    display: flex;
+    height: 300px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: cornflowerblue;
+
+    /* flex-direction: row;
+    justify-content: center; */
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.child1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 3px;
+}
+
+
+/* Center html Interview Page */
+.interview-parent{
+   
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(140, 161, 243);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interview{
+    
+    height: 200px;
+    width: 200px;
+    background-color: rgb(219, 197, 165);
+}

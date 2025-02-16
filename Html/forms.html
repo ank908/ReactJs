@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Page</a>
+        <a href="contact.html">Contact Page</a>
+        <a href="service.html">Services Page</a>
+        <a href="semantic.html">Semantic Page</a>
+        <a href="forms.html">Form</a>
+    </header>
+    <main>
+        <h1>Html Form</h1>
+        <form action="/user" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" id="username" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input  type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="number" name="age" id="age" required></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="tel" name="phone" id="phone" required></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" id="address" cols="30" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Select Country:</td>
+                    <td>
+                        <select name="country" id="">
+                            <option selected disabled value="Select">Select Country</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" id="">Male
+                        <input type="radio" name="gender" > Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td><input type="date" name="dob" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Choose Color</td>
+                    <td><input type="color" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Select Profile Photo</td>
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Interested Technologies</td>
+                    <td>
+                        <input type="checkbox" name="tech" id="">HTML
+                        <input type="checkbox" name="tech" id="">CSS
+                        <input type="checkbox" name="tech" id="">JavaScript
+                        <input type="checkbox" name="tech" id="">React
+                        <input type="checkbox" name="tech" id="">Angular
+                        <input type="checkbox" name="tech" id="">Vue
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        
+            
+        </form>
+            
+    </main>
+</body>
+</html>
